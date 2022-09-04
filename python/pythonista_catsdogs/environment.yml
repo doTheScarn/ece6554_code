@@ -1,0 +1,11 @@
+name: ENV_ML
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.10
+  - pytorch
+  - tensorflow
+  - ipython
+  - pillow
+
