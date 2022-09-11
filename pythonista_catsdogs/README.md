@@ -27,6 +27,9 @@ python model_test.py
 
 # TO DO:
 #  - Document the procedure for installing on Anaconda on Windows
+#      conda install nomkl
+#      [conda env update -f environment.yml]
+#      conda remove mkl mkl-service
 #  - I had significantly different results reported in the training accuracy and
 #    loss function while training with the same parameters on Windows vs Linux.
 #    Explore and verify this.
